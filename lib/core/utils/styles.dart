@@ -8,7 +8,7 @@ static  const textStyle18 = TextStyle(
 );
 static  const textStyle14 = TextStyle(
   fontSize: 14,
-  fontWeight: FontWeight.normal,
+  fontWeight: FontWeight.w300,
 );
 static  const textStyle30 = TextStyle(
   fontSize: 30,
