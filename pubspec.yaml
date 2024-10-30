@@ -85,7 +85,10 @@ flutter:
     - family: Montserrat-Medium
       fonts:
         - asset: assets/fonts/static/Montserrat-Medium.ttf
-
+    - family: Montserrat-SemiBold
+      fonts:
+        - asset: assets/fonts/static/Montserrat-SemiBold.ttf
+    
 
   #
   # For details regarding fonts from package dependencies,

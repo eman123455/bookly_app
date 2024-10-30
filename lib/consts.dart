@@ -5,3 +5,4 @@ const kTransitionDuration = Duration(microseconds: 250);
 const kGTSectraFine = 'GTSectraFine-Regular';
 const kMontserratMedium = 'Montserrat-Medium';
 const kMontserratBold = 'Montserrat-Bold';
+const kMontserratSemiBold = 'Montserrat-SemiBold';

@@ -22,8 +22,8 @@ class BookRating extends StatelessWidget {
         child: Text('(2339)',
           style: Styles.textStyle14.copyWith(fontFamily: kMontserratMedium),
           ),
-      )
-
+      ),
+    
       ],
     );
   }

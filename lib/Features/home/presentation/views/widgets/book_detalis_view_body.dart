@@ -1,4 +1,6 @@
+import 'package:bookly_app/Features/home/presentation/views/widgets/book_action.dart';
 import 'package:bookly_app/Features/home/presentation/views/widgets/book_rating.dart';
+import 'package:bookly_app/Features/home/presentation/views/widgets/copy_books_List_view.dart';
 import 'package:bookly_app/Features/home/presentation/views/widgets/custom_book_detalis_app_bar.dart';
 import 'package:bookly_app/Features/home/presentation/views/widgets/custom_book_image.dart';
 import 'package:bookly_app/consts.dart';
@@ -35,9 +37,27 @@ class BookDetalisViewBody extends StatelessWidget {
        ),
   
       
-     const BookRating(mainAxisAlignment: MainAxisAlignment.center,)
+     const BookRating(mainAxisAlignment: MainAxisAlignment.center,),
+      const  SizedBox(height: 37,),
+      const  BookAction(),
+     const SizedBox(height: 49,),
+     Align(
+      alignment: Alignment.centerLeft,
+       child: Text('You can also like',
+         style: Styles.textStyle14.copyWith(
+          fontFamily: kMontserratSemiBold,
+          fontWeight: FontWeight.w600,
+         ),
+        ),
+     ),
+       const SizedBox(height: 16,),
+
+      const CopyBooksListView()
+          
       ],
     );
   }
 }
+
+
 
