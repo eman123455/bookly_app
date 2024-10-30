@@ -1,3 +1,4 @@
+import 'package:bookly_app/Features/home/presentation/views/widgets/book_rating.dart';
 import 'package:bookly_app/Features/home/presentation/views/widgets/custom_book_detalis_app_bar.dart';
 import 'package:bookly_app/Features/home/presentation/views/widgets/custom_book_image.dart';
 import 'package:bookly_app/consts.dart';
@@ -32,7 +33,9 @@ class BookDetalisViewBody extends StatelessWidget {
           ),
          ),
        ),
-
+  
+      
+     const BookRating(mainAxisAlignment: MainAxisAlignment.center,)
       ],
     );
   }
