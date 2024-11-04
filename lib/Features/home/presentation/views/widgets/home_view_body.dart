@@ -20,24 +20,26 @@ class HomeViewBody extends StatelessWidget {
                 child: CustomAppBar(),
               ),
               FeaturedListView(),
-              SizedBox(height: 50,),
+              SizedBox(
+                height: 50,
+              ),
               Padding(
                 padding: EdgeInsets.only(left: 20),
-                child: Text('Best Seller',
-                style: Styles.textStyle18,
+                child: Text(
+                  'Best Seller',
+                  style: Styles.textStyle18,
                 ),
               ),
-              SizedBox(height: 20,),
-              
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
-
         SliverFillRemaining(
-         child: BestSellerListView(),
+          child: BestSellerListView(),
         )
       ],
     );
   }
 }
-
